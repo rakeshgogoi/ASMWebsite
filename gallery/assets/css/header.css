@@ -1,0 +1,306 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+
+/*
+	A Digital Axom Design || digitalaxom.com | rakeshgogoi.me
+*/
+
+	headertop.major {
+		padding-bottom: 2em;
+	}
+
+	.maha {
+		padding-right: 30em;
+	}
+
+	headertop.special {
+		margin-bottom: 1em;
+		padding-top: 3em;
+		padding-right: 40em;
+		position: relative;
+	}
+
+	headertop.newspecial {
+		margin-bottom: 3em;
+		padding-top: 7em;
+		padding-left: 35em;
+		position: relative;
+		color: #ffffff;
+	}
+
+
+		headertop.special:before, headertop.special:after {
+			border-bottom: solid 1.5px;
+			border-top: solid 1.5px;
+			content: '';
+			height: 7px;
+			opacity: 0.1;
+			position: absolute;
+			top: 1.75em;
+			width: 43%;
+		}
+
+		headertop.special:before {
+			left: 0;
+		}
+
+		headertop.special:after {
+			right: 0;
+		}
+
+		headertop.special h2 {
+			margin-bottom: 0;
+		}
+
+		headertop.special h2 + p {
+			margin-bottom: 0;
+			padding-top: 1.5em;
+		}
+
+		headertop.special .icon {
+			cursor: default;
+			height: 7em;
+			left: 0;
+			position: absolute;
+			text-align: center;
+			top: 1em;
+			width: 100%;
+		}
+
+			headertop.special .icon:before {
+				font-size: 3.5em;
+				opacity: 0.35;
+			}
+
+	footertop > :last-child {
+		margin-bottom: 0;
+	}
+
+	footertop.major {
+		padding-top: 1em;
+	}
+
+/* Form */
+
+	#headertop {
+		background: #5e2d10;
+		opacity: 0.5;
+		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
+		color: inherit;
+		cursor: default;
+		font-size: 0.7em;
+		left: 0;
+		padding-top: 6em;
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 10000;
+	}
+
+		#headertop h1 {
+			font-weight: 700;
+			margin: 0;
+		}
+
+			#headertop h1 span {
+				font-weight: 300;
+			}
+
+		#headertop nav {
+			letter-spacing: 0.075em;
+			position: absolute;
+			right: 6em;
+			text-transform: uppercase;
+			top: 2em;
+			/*font-size: 12px;*/ headertop
+		}
+
+			#headertop nav ul li {
+				display: inline-block;
+				margin-left: 1.5em;
+			}
+
+				#headertop nav ul li > ul {
+					display: none;
+				}
+
+				#headertop nav ul li a {
+					border: solid 1px transparent;
+					color: #fff;
+					display: inline-block;
+					line-height: 1em;
+					padding: 0.6em 0.75em;
+					text-decoration: none;
+				}
+
+				#headertop nav ul li input[type="button"],
+				#headertop nav ul li input[type="submit"],
+				#headertop nav ul li input[type="reset"],
+				#headertop nav ul li .button {
+					font-size: 1em;
+					min-width: 0;
+					width: auto;
+				}
+
+				#headertop nav ul li.submenu > a {
+					text-decoration: none;
+				}
+
+					#headertop nav ul li.submenu > a:before {
+						-moz-osx-font-smoothing: grayscale;
+						-webkit-font-smoothing: antialiased;
+						font-family: FontAwesome;
+						font-style: normal;
+						font-weight: normal;
+						text-transform: none !important;
+					}
+
+					#headertop nav ul li.submenu > a:before {
+						content: '\f107';
+						margin-right: 0.65em;
+					}
+
+				#headertop nav ul li.active > a, #headertop nav ul li:hover > a {
+					-moz-transition: all 0.2s ease-in-out;
+					-webkit-transition: all 0.2s ease-in-out;
+					-ms-transition: all 0.2s ease-in-out;
+					transition: all 0.2s ease-in-out;
+					background: rgba(188, 202, 206, 0.15);
+				}
+
+				#headertop nav ul li.current > a {
+					font-weight: 600;
+				}
+
+		#headertop.reveal {
+			-moz-animation: reveal-headertop 0.5s;
+			-webkit-animation: reveal-headertop 0.5s;
+			-ms-animation: reveal-headertop 0.5s;
+			animation: reveal-headertop 0.5s;
+		}
+
+		#headertop.alt {
+			-moz-animation: none;
+			-webkit-animation: none;
+			-ms-animation: none;
+			animation: none;
+			background: transparent;
+			box-shadow: none;
+			color: #fff;
+			padding: 2em 2.5em;
+			position: absolute;
+		}
+
+			#headertop.alt nav {
+				right: 6em;
+				top: 1.75em;
+			}
+
+				#headertop.alt nav ul li.active > a, #headertop.alt nav ul li:hover > a {
+					border: solid 1px;
+				}
+
+ Dropotron 
+
+	.dropotron {
+		background: #fff;
+		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.075);
+		line-height: 2.25em;
+		min-width: 13em;
+		padding: 1em 0;
+		text-transform: uppercase;
+		margin-top: calc(-1em + 1px);
+	}
+
+		.dropotron.level-0 {
+			font-size: 0.7em;
+			font-weight: 400;
+			margin-top: 1.5em;
+		}
+
+			.dropotron.level-0:before {
+				border-bottom: solid 0.5em #fff;
+				border-left: solid 0.5em transparent;
+				border-right: solid 0.5em transparent;
+				content: '';
+				left: 0.75em;
+				position: absolute;
+				top: -0.45em;
+			}
+
+		.dropotron > li {
+			border-top: solid 1px rgba(124, 128, 129, 0.2);
+		}
+
+			.dropotron > li > a {
+				-moz-transition: none;
+				-webkit-transition: none;
+				-ms-transition: none;
+				transition: none;
+				color: inherit;
+				text-decoration: none;
+				padding: 0 1em;
+				border: 0;
+			}
+
+			.dropotron > li:hover > a {
+				background: #83d3c9;
+				color: #fff;
+			}
+
+			.dropotron > li:first-child {
+				border-top: 0;
+			}
+
+ 
+		/* Section/Article */
+
+			headertop br {
+				display: none;
+			}
+
+			headertop.major {
+				padding-bottom: 1em;
+			}
+
+			headertop.special {
+				padding-left: 2.5em;
+				padding-right: 2.5em;
+			}
+
+			footertop.major {
+				padding-top: 1.5em;
+			}
+
+		/* Wrapper */
+
+		/*Footer*/
+
+			#footertop {
+				padding: 3em 1.5em;
+			}
+
+				#footertop .copyright li {
+					display: block;
+					margin: 1em 0 0 0;
+					padding: 0;
+					border: 0;
+				}
+
+		/* Off-Canvas Navigation */
+
+			#navButton .toggle:before {
+				top: 8px;
+				left: 8px;
+				width: 50px;
+				height: 34px;
+				line-height: 34px;
+			}
+
+			#navButton .toggle:after {
+				top: 8px;
+				left: 8px;
+				width: 50px;
+				height: 34px;
+			}
+	}
