@@ -4,13 +4,22 @@
 
 (function($) {
 
-	skel.breakpoints({
+	/*skel.breakpoints({
 		wide: '(max-width: 1680px)',
 		normal: '(max-width: 1280px)',
 		narrow: '(max-width: 980px)',
 		narrower: '(max-width: 840px)',
 		mobile: '(max-width: 736px)'
+	});*/
+
+
+	$(document).ready(function(){
+
+		setTimeout(function(){
+			$('body').addClass('loaded');
+		},3000);
 	});
+
 
 	$(function() {
 
