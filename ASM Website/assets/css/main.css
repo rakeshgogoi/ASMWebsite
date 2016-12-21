@@ -156,9 +156,9 @@
 
 
 	@font-face{
-	font-family: 'samarn';
-	src: url('samarn.eot') format('embedded-opentype'),
-	url('../fonts/samarn.ttf') format('truetype');
+	font-family: 'Arial';
+	src: url('gabriola.eot') format('embedded-opentype'),
+	url('../fonts/Arial.ttf') format('truetype');
 	}
 
 
@@ -2678,7 +2678,7 @@
 	}
 
 	.mahapurush{
-	background-image: url(""), url(""), url("../../images/maha3.jpg");
+	background-image: url(""), url(""), url("../../images/maha.jpg");
 
 	}
 

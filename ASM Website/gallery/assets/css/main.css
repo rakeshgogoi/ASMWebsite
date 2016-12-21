@@ -161,6 +161,12 @@
 	url('../fonts/samarn.ttf') format('truetype');
 	}
 
+	@font-face{
+	font-family: 'Arial';
+	src: url('gabriola.eot') format('embedded-opentype'),
+	url('../fonts/Arial.ttf') format('truetype');
+	}
+
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
